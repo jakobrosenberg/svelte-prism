@@ -1,6 +1,6 @@
 {
   "name": "svelte-prism",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prismjs for Svelte",
   "main": "index.js",
   "svelte": "src/index.svelte",

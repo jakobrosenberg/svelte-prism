@@ -10,7 +10,7 @@
   async function highlightCode() {
     await tick();
     const grammar = Prism.languages[language];
-    let body = element.textContent;
+    let body = source || element.textContent;
     formattedCode = Prism.highlight(body, grammar, language);
   }
 
