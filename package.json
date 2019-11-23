@@ -1,9 +1,9 @@
 {
   "name": "svelte-prism",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prismjs for Svelte",
   "main": "index.js",
-  "svelte": "src/index.svelte",
+  "svelte": "src/Prism.svelte",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
