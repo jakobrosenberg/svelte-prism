@@ -1,0 +1,30 @@
+{
+  "name": "svelte-prism",
+  "version": "1.0.0",
+  "description": "Prismjs for Svelte",
+  "main": "index.js",
+  "svelte": "src/index.svelte",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobrosenberg/svelte-prism.git"
+  },
+  "keywords": [
+    "prism",
+    "prismjs",
+    "svelte",
+    "code",
+    "highlight"
+  ],
+  "author": "Jakob Rosenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakobrosenberg/svelte-prism/issues"
+  },
+  "homepage": "https://github.com/jakobrosenberg/svelte-prism#readme",
+  "dependencies": {
+    "prismjs": "^1.17.1"
+  }
+}
