@@ -1,5 +1,6 @@
 <script>
   import prism from "prismjs";
+  import 'prism-svelte'; 
   import { tick } from "svelte";
   export let language = "javascript",
     source = "";
