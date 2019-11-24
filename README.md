@@ -1,5 +1,5 @@
 # svelte-prism
-
+Prebundled with Svelte language support thanks to [pngwn](https://github.com/pngwn/prism-svelte)
 
 ### Install
 ``npm i svelte-prism``
