@@ -24,7 +24,7 @@
   <slot />
 </code>
 
-<pre class="language-{language}" style="border-radius: 0; margin: 0;">
+<pre class="language-{language}">
   <code class="language-{language}">
     {@html formattedCode}
   </code>
