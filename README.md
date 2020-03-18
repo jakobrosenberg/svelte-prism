@@ -27,7 +27,7 @@ Code can be transformed by using the transform prop:
 ```
 Global transform can be added with:
 ```javascript
-import global from 'svelte-prism'
+import { global } from 'svelte-prism'
 global.transform = x => x
 
 ```
