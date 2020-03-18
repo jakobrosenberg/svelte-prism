@@ -20,6 +20,24 @@ Prebundled with Svelte language support thanks to [pngwn](https://github.com/png
 </Prism>
 ```
 
+#### Transform
+Code can be transformed by using the transform prop:
+```html
+<Prism transform={x => x}>...</Prism>
+```
+Global transform can be added with:
+```javascript
+import global from 'svelte-prism'
+global.transform = x => x
+
+```
+##### Normalizing whitespace example
+```javascript
+import 'prismjs/plugins/normalize-whitespace/prism-normalize-whitespace'
+import global from 'svelte-prism'
+global.transform = code => Prism.plugins.NormalizeWhitespace.normalize(code)
+```
+
 
 ### Themes
 To use a theme, import the CSS to your project. Ie.
