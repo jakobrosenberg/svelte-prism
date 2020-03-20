@@ -4,6 +4,12 @@
   "description": "Prismjs for Svelte",
   "main": "index.js",
   "svelte": "src/Prism.svelte",
+  "release": [
+    "master",
+    "next",
+    {"name": "alph", "prerelease": true},
+    {"name": "beta", "prerelease": true}
+  ]
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "semantic-release": "semantic-release"
