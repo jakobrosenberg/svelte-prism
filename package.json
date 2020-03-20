@@ -1,15 +1,16 @@
 {
   "name": "svelte-prism",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "Prismjs for Svelte",
   "main": "index.js",
   "svelte": "src/Prism.svelte",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakobrosenberg/svelte-prism.git"
+    "url": "https://github.com/jakobrosenberg/svelte-prism.git"
   },
   "keywords": [
     "prism",
@@ -27,5 +28,8 @@
   "dependencies": {
     "prism-svelte": "^0.4.0",
     "prismjs": "^1.17.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.4"
   }
 }
