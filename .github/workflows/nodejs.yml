@@ -2,6 +2,16 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
 name: Node.js CI
+inputs: 
+  branch
+  - '+([0-9])?(.{+([0-9]),x}).x'
+  - master
+  - next
+  - next-major
+  - name: beta
+    prerelease: true
+  - name: alpha
+    prerelease: true
 
 on:
   ['push']
@@ -14,6 +24,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: codfish/semantic-release-action@master
+      
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - run: |
+        echo $RELEASE_VERSION
+        echo $RELEASE_MAJOR
+        echo $RELEASE_MINOR
+        echo $RELEASE_PATCH
