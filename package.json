@@ -9,7 +9,7 @@
     "next",
     {"name": "alph", "prerelease": true},
     {"name": "beta", "prerelease": true}
-  ]
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "semantic-release": "semantic-release"
