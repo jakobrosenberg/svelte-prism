@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: codfish/semantic-release-action@master
+    - uses: cycjimmy/semantic-release-action@v2.2.0
       
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
