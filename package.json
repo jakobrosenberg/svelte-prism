@@ -13,7 +13,7 @@
     "master",
     "next",
     "actions",
-    {"name": "alph", "prerelease": true},
+    {"name": "alpha", "prerelease": true},
     {"name": "beta", "prerelease": true}
   ]},
   "repository": {
