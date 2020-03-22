@@ -8,14 +8,6 @@
     "test": "echo \"Error: no test specified\"",
     "semantic-release": "semantic-release"
   },
-  "release": {
-  "branches": [
-    "master",
-    "next",
-    "actions",
-    {"name": "alpha", "prerelease": true},
-    {"name": "beta", "prerelease": true}
-  ]},
   "repository": {
     "type": "git",
     "url": "https://github.com/jakobrosenberg/svelte-prism.git"
