@@ -14,10 +14,16 @@ Prebundled with Svelte language support thanks to [pngwn](https://github.com/png
 <!-- Option one -->
 <Prism language="html" source="{mycode}" />
 
-<!-- Options two -->
+<!-- Option two -->
 <Prism language="html">
     {mycode}
 </Prism>
+
+<!-- Option three -->
+<Prism>{`
+    // Code that might trigger a compiler error
+`}</Prism>
+
 ```
 
 #### Transform
