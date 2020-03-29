@@ -12,11 +12,25 @@ Prebundled with Svelte language support thanks to [pngwn](https://github.com/png
 </script>
 
 <!-- Option one -->
+<!-- Using the source prop -->
 <Prism language="html" source="{mycode}" />
 
 <!-- Options two -->
+<!-- Using the default slot -->
 <Prism language="html">
     {mycode}
+</Prism>
+```
+
+#### Inline code
+Inline code can be added by adding a string inside Svelte's brackets.
+```html
+<Prism language="html">
+    {`
+      <header>
+        <h1>Hello World!</h1>
+      </header>
+    `}
 </Prism>
 ```
 
