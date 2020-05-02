@@ -1,6 +1,6 @@
 <script context="module">
   import _prism from "./import";
-  export let global = {
+  let global = {
     transform: x => x
   };
   export const prism = _prism
