@@ -41,15 +41,15 @@ Code can be transformed by using the transform prop:
 ```
 Global transform can be added with:
 ```javascript
-import { global } from 'svelte-prism'
-global.transform = x => x
+import { globalConfig } from 'svelte-prism'
+globalConfig.transform = x => x
 
 ```
 ##### Normalizing whitespace example
 ```javascript
 import 'prismjs/plugins/normalize-whitespace/prism-normalize-whitespace'
-import global from 'svelte-prism'
-global.transform = code => Prism.plugins.NormalizeWhitespace.normalize(code)
+import { globalConfig } from 'svelte-prism'
+globalConfig.transform = code => Prism.plugins.NormalizeWhitespace.normalize(code)
 ```
 
 
