@@ -7,7 +7,6 @@
 
 <script>
   import "prism-svelte";
-  import { tick } from "svelte";
 
   export let language = "javascript";
   export let source = "";
