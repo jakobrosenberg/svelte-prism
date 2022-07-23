@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/jakobrosenberg/svelte-prism/compare/v1.1.5...v1.1.6) (2022-07-23)
+
+
+### Bug Fixes
+
+* safe window check for ssr ([#35](https://github.com/jakobrosenberg/svelte-prism/issues/35)) ([5f6ab7e](https://github.com/jakobrosenberg/svelte-prism/commit/5f6ab7e4c128c1564af41e4af20583566bbc4457))
+
 ### [1.1.5](https://github.com/jakobrosenberg/svelte-prism/compare/v1.1.3...v1.1.5) (2022-04-26)
 
 
