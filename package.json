@@ -31,7 +31,7 @@
     "prismjs": "^1.27.0"
   },
   "devDependencies": {
-    "semantic-release": "^17.4.7",
+    "semantic-release": "^21.0.1",
     "svelte": "^3.47.0"
   }
 }
