@@ -33,5 +33,11 @@
   "devDependencies": {
     "semantic-release": "^17.4.7",
     "svelte": "^3.47.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/Prism.d.ts",
+      "svelte": "./src/Prism.svelte"
+    }
   }
 }
